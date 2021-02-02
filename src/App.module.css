@@ -1,0 +1,36 @@
+
+body {
+ background-color: rgb(243, 242, 237);
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  background-color: rgb(180, 197, 248);
+}
+
+
+.image{
+  width: 1600px;
+  height: 50%;
+  margin-top: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
